@@ -1,19 +1,14 @@
 import './App.css';
+import Header from './components/User';
+import User from './components/User';
 
 function App() {
-
-  function refreshUser(){
-    console.log("Message");
-  
-  }
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
-      <button OnClick={refreshUser}></button>
+      <Header/>
+      <User/>
     </div>
   );
 }
 
-export default App;
+export default App
